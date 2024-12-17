@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif ;
+  box-sizing:border-box; 
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.6);
+  transform: scaleY(+1);
+}
+
+#botao-header {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+}
+
+div {
+  display: none;
+}
+
+form {
+  align-items: center;
+  padding-top: 20px;
+  background-color: rgb(170, 224, 187);
+  border: none;
+  justify-content: center;
+  display: flex;
+}
+
+form input, #botao-form {
+  padding: 10px;
+  margin: 0 2px 20px 0;
+  border-radius: 20px;
+  border: rgb(100, 95, 95) solid 1px;
+  font-size: 20px;
+}
+
+input {
+  width: 400px;
+  background-color: rgb(240, 249, 233);
+}
+
+#botao-form {
+  background-color: greenyellow;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+.container-list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.task-list {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+li {
+  color: red;
+  padding: 10px;
+}
+
+.second-time {
+  text-decoration: line-through;
+  color: green;
+}
